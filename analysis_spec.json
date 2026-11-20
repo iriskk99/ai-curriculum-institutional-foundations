@@ -1,0 +1,190 @@
+{
+  "title": "The Institutional Foundations of AI Education: Educational Capacity and Curriculum Inequality in U.S. High Schools",
+  "target_journal": "Computer Science Education",
+  "status": "PUBLIC_REPOSITORY",
+  "data_version": "CSE-3827-2900-20261120",
+  "features": [
+    "district_cs_loo",
+    "cs_per_100_students",
+    "City",
+    "Suburb",
+    "Town",
+    "log_enrollment",
+    "charter_use",
+    "stem_name_flag",
+    "academy_name_flag",
+    "st_ratio_use",
+    "cd_ba_plus_share",
+    "cd_log_med_income",
+    "qcew_selected_tech_lq",
+    "title1_cep_flag",
+    "cs_enrollment_share",
+    "crdc_ds_offered",
+    "log_ai_patents_per_10k",
+    "fixed_100_20_pct",
+    "r1_within_25mi",
+    "log_gdp_total",
+    "cs_academic_proximity",
+    "log_certified_adv_stem_classes"
+  ],
+  "models": {
+    "full": {
+      "n": 3827,
+      "AI": 258,
+      "LEAs": 2222,
+      "sample_file": "model_full_3827.csv"
+    },
+    "cs_existing": {
+      "n": 2900,
+      "AI": 235,
+      "LEAs": 1800,
+      "sample_file": "model_existing_cs_2900.csv"
+    }
+  },
+  "estimator": "Ordinary unpenalized binary logistic MLE; state fixed effects; LEA-clustered sandwich covariance",
+  "reference_state": "AL",
+  "state_jurisdictions": 36,
+  "nonstate_terms": 22,
+  "parameters": 58,
+  "singleton_rule": "Official single-high-school LEA: CS-LOO=0; otherwise use valid other-school reports; unresolved cases remain missing.",
+  "contrasts": [
+    {
+      "term": "cs_per_100_students",
+      "label": "CS classes / 100 students (+1)",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "cs_enrollment_share",
+      "label": "CS enrollment / all students (+10 pp)",
+      "group": "P1",
+      "factor": 0.1
+    },
+    {
+      "term": "log_enrollment",
+      "label": "Student enrollment (doubling)",
+      "group": "P1",
+      "factor": 0.6931471805599453
+    },
+    {
+      "term": "st_ratio_use",
+      "label": "Student\u2013teacher ratio (+1)",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "log_certified_adv_stem_classes",
+      "label": "Certified STEM classes (2\u00d7[1+n])",
+      "group": "P1",
+      "factor": 0.6931471805599453
+    },
+    {
+      "term": "charter_use",
+      "label": "Charter",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "title1_cep_flag",
+      "label": "NSLP participation indicator",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "stem_name_flag",
+      "label": "STEM name",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "academy_name_flag",
+      "label": "Academy name",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "crdc_ds_offered",
+      "label": "Data science enrollment indicator",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "City",
+      "label": "City vs rural",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "Suburb",
+      "label": "Suburb vs rural",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "Town",
+      "label": "Town vs rural",
+      "group": "P1",
+      "factor": 1.0
+    },
+    {
+      "term": "district_cs_loo",
+      "label": "Other district HS with CS (+10 pp)",
+      "group": "P2",
+      "factor": 0.1
+    },
+    {
+      "term": "cd_ba_plus_share",
+      "label": "District BA+ share (+10 pp)",
+      "group": "P3",
+      "factor": 0.1
+    },
+    {
+      "term": "cd_log_med_income",
+      "label": "District median income (+10%)",
+      "group": "P3",
+      "factor": 0.0953101798043249
+    },
+    {
+      "term": "cs_academic_proximity",
+      "label": "CSRankings proximity (50 to 25 km)",
+      "group": "P3",
+      "factor": 0.6737290947028437
+    },
+    {
+      "term": "qcew_selected_tech_lq",
+      "label": "County tech employment LQ (+1)",
+      "group": "P3",
+      "factor": 1.0
+    },
+    {
+      "term": "log_ai_patents_per_10k",
+      "label": "AI patent density (doubling rate + 0.01)",
+      "group": "P3",
+      "factor": 0.6931471805599453
+    },
+    {
+      "term": "fixed_100_20_pct",
+      "label": "Broadband availability (+10 pp)",
+      "group": "P3",
+      "factor": 10.0
+    },
+    {
+      "term": "r1_within_25mi",
+      "label": "R1 university within 25 miles",
+      "group": "P3",
+      "factor": 1.0
+    },
+    {
+      "term": "log_gdp_total",
+      "label": "County GDP (doubling)",
+      "group": "P3",
+      "factor": 0.6931471805599453
+    }
+  ],
+  "probability_curve_predictors": [
+    "cs_enrollment_share",
+    "district_cs_loo",
+    "cd_log_med_income",
+    "cs_academic_proximity"
+  ]
+}

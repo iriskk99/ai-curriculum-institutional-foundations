@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "new_model_specifications": false,
+  "upload_performed": false,
+  "models": {
+    "full": {
+      "n": 3827,
+      "AI": 258,
+      "LEAs": 2222,
+      "states": 36,
+      "parameters": 58,
+      "log_likelihood": -864.5783122272226,
+      "AIC": 1845.1566244544451,
+      "converged": true,
+      "max_abs_score": 3.939662993404647e-08,
+      "max_saved_beta_difference": 3.611031695882616e-08,
+      "max_saved_SE_difference": 3.181623253745158e-08
+    },
+    "cs_existing": {
+      "n": 2900,
+      "AI": 235,
+      "LEAs": 1800,
+      "states": 36,
+      "parameters": 58,
+      "log_likelihood": -746.7524275057292,
+      "AIC": 1609.5048550114584,
+      "converged": true,
+      "max_abs_score": 4.09420368626609e-13,
+      "max_saved_beta_difference": 2.533528942194607e-13,
+      "max_saved_SE_difference": 2.1760371282653068e-13
+    }
+  },
+  "descriptive_statistics_rows_verified": 72,
+  "probability_curve_points_verified": 324,
+  "software": {
+    "python": "3.14.7",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1"
+  },
+  "isolated_directory_test_passed": true,
+  "integrity_checks_passed": true,
+  "private_path_and_credential_scan_passed": true,
+  "all_56_school_fields_and_13_district_fields_documented": true
+}

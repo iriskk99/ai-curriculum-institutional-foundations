@@ -1,0 +1,27 @@
+{
+  "title": "The Institutional Foundations of AI Education: Educational Capacity and Curriculum Inequality in U.S. High Schools \u2014 replication data and code",
+  "version": "0.1.0",
+  "preparation_date": "2026-11-20",
+  "release_status": "public GitHub repository",
+  "target_journal": "Computer Science Education",
+  "unit_of_observation": "school",
+  "geographic_coverage": "United States, sampled schools",
+  "outcome_observation_period": "June 2026",
+  "descriptive_schools": 5131,
+  "AI_positive_schools": 312,
+  "full_model_schools": 3827,
+  "existing_CS_model_schools": 2900,
+  "formats": [
+    "CSV",
+    "JSON",
+    "Python",
+    "Markdown",
+    "NumPy covariance arrays"
+  ],
+  "public_repository_url": "https://github.com/iriskk99/ai-curriculum-institutional-foundations",
+  "doi": null,
+  "code_license": null,
+  "data_license": null,
+  "individual_student_records_included": false,
+  "raw_website_and_catalog_documents_included": false
+}

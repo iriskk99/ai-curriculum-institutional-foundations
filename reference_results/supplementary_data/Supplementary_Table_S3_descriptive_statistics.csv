@@ -1,0 +1,73 @@
+sample,variable,term,type,n,mean,sd,median,q1,q3,positive_n,percent
+Full descriptive sample,CS enrollment share (%),cs_enrollment_share,continuous,4998,6.542906491503146,8.996123109442607,3.673618608583385,0.0,8.866057411312973,,
+Full descriptive sample,CS classes per 100 students,cs_per_100_students,continuous,4994,3.0005905750273323,16.400007675718413,0.7699718393360012,0.0,2.2902636975841055,,
+Full descriptive sample,School enrollment (students),log_enrollment,continuous,5125,497.7170731707317,502.39633131910085,329.99999999999994,147.99999999999994,688.0000000000006,,
+Full descriptive sample,Student–teacher ratio,st_ratio_use,continuous,4841,6.9129810742493785,4.824163249356159,5.826086956521739,3.257918552036199,9.422411498536066,,
+Full descriptive sample,Certified advanced-STEM classes,log_certified_adv_stem_classes,continuous,5052,21.945764053840065,23.391324385205564,14.999999999999998,5.0,31.999999999999982,,
+Full descriptive sample,District CS-LOO (%),district_cs_loo,continuous,4999,34.84264627996255,37.41272233431778,22.5,0.0,66.66666666666666,,
+Full descriptive sample,District BA+ attainment (%),cd_ba_plus_share,continuous,4461,41.39560147281123,15.810282566728402,39.542421953675735,29.786245353159853,51.43207855973814,,
+Full descriptive sample,District household income (USD),cd_log_med_income,continuous,4460,97047.8802690583,34972.922085250415,90790.5,71349.50000000006,113662.99999999978,,
+Full descriptive sample,CSRankings-linked university distance (km),csr_dist_km,continuous,5131,59.2765139209892,61.529523839126945,33.37477138591452,15.709123706997335,89.39456447356768,,
+Full descriptive sample,County technology employment LQ,qcew_selected_tech_lq,continuous,5128,1.0221233507029572,1.1624950071160256,0.6855782540746546,0.2891090738863652,1.1816936858150286,,
+Full descriptive sample,County AI patent density (log scale),log_ai_patents_per_10k,continuous,5131,-1.2098022057725786,2.2771309753508717,-0.8984320753197705,-2.866405587300741,0.5683465011298412,,
+Full descriptive sample,Fixed broadband availability (%),fixed_100_20_pct,continuous,5054,95.49137316976652,8.214916513803141,97.6,96.1,99.3,,
+Full descriptive sample,County GDP (log scale),log_gdp_total,continuous,4983,24.139032121657085,1.8693536197580705,24.32104738466269,22.908600002689283,25.382103833924795,,
+Full descriptive sample,Observed AI curriculum,AI_final,binary,5131,,,,,,312.0,6.080686026115767
+Full descriptive sample,Charter school,charter_use,binary,5131,,,,,,628.0,12.239329565386864
+Full descriptive sample,NSLP participation indicator,title1_cep_flag,binary,5131,,,,,,4518.0,88.05301110894563
+Full descriptive sample,STEM name indicator,stem_name_flag,binary,5131,,,,,,239.0,4.657961411030988
+Full descriptive sample,Academy name indicator,academy_name_flag,binary,5131,,,,,,568.0,11.069966868056907
+Full descriptive sample,Data science enrollment indicator,crdc_ds_offered,binary,5002,,,,,,237.0,4.738104758096761
+Full descriptive sample,R1 university within 25 miles,r1_within_25mi,binary,5131,,,,,,2005.0,39.07620346910933
+Full descriptive sample,City,City,binary,5131,,,,,,1588.0,30.949132722666143
+Full descriptive sample,Suburb,Suburb,binary,5131,,,,,,2098.0,40.88871564997076
+Full descriptive sample,Town,Town,binary,5131,,,,,,366.0,7.133112453712727
+Full descriptive sample,Rural,Rural,binary,5131,,,,,,1079.0,21.02903917365036
+Full-model estimation sample,CS enrollment share (%),cs_enrollment_share,continuous,3827,6.561941965923136,8.6115525270414,3.9742212674543502,0.19679554162312501,8.966325372566871,,
+Full-model estimation sample,CS classes per 100 students,cs_per_100_students,continuous,3827,2.9818951293655576,15.242391821839098,0.8733624454148471,0.09101255662658381,2.469135802469136,,
+Full-model estimation sample,School enrollment (students),log_enrollment,continuous,3827,492.0,467.3221698729722,338.00000000000006,152.99999999999997,694.0000000000001,,
+Full-model estimation sample,Student–teacher ratio,st_ratio_use,continuous,3827,6.775327683295689,4.7153747638825845,5.688703988423623,3.2312818910757053,9.235502305344502,,
+Full-model estimation sample,Certified advanced-STEM classes,log_certified_adv_stem_classes,continuous,3827,23.975176378364253,24.041710149437197,17.999999999999996,5.9999999999999964,34.499999999999986,,
+Full-model estimation sample,District CS-LOO (%),district_cs_loo,continuous,3827,36.743972920494755,37.19976828458388,28.57142857142857,0.0,71.42857142857143,,
+Full-model estimation sample,District BA+ attainment (%),cd_ba_plus_share,continuous,3827,41.14338736367098,15.713920615940019,39.48278397055059,29.59754659988875,51.401449925477884,,
+Full-model estimation sample,District household income (USD),cd_log_med_income,continuous,3827,97004.60752547688,34128.85898768031,90840.00000000004,72004.5,113662.99999999978,,
+Full-model estimation sample,CSRankings-linked university distance (km),csr_dist_km,continuous,3827,59.97199518190289,58.66872660907005,36.419397189062316,17.434367963355342,90.32541609135927,,
+Full-model estimation sample,County technology employment LQ,qcew_selected_tech_lq,continuous,3827,1.0067944016368098,1.1457718115275668,0.6755811258144975,0.2876341687934915,1.1532926752832082,,
+Full-model estimation sample,County AI patent density (log scale),log_ai_patents_per_10k,continuous,3827,-1.214720102041215,2.2086721193926677,-0.9380068515860048,-2.701895025879877,0.41781982292093645,,
+Full-model estimation sample,Fixed broadband availability (%),fixed_100_20_pct,continuous,3827,95.52837731904886,8.00292154937462,97.6,96.1,99.3,,
+Full-model estimation sample,County GDP (log scale),log_gdp_total,continuous,3827,24.075261391063613,1.828288433082308,24.224691587300487,22.832201251575466,25.35093960720333,,
+Full-model estimation sample,Observed AI curriculum,AI_final,binary,3827,,,,,,258.0,6.741573033707865
+Full-model estimation sample,Charter school,charter_use,binary,3827,,,,,,129.0,3.3707865168539324
+Full-model estimation sample,NSLP participation indicator,title1_cep_flag,binary,3827,,,,,,3650.0,95.37496733733995
+Full-model estimation sample,STEM name indicator,stem_name_flag,binary,3827,,,,,,106.0,2.7697935719885027
+Full-model estimation sample,Academy name indicator,academy_name_flag,binary,3827,,,,,,235.0,6.140580088842436
+Full-model estimation sample,Data science enrollment indicator,crdc_ds_offered,binary,3827,,,,,,164.0,4.285340998170891
+Full-model estimation sample,R1 university within 25 miles,r1_within_25mi,binary,3827,,,,,,1584.0,41.39012281160178
+Full-model estimation sample,City,City,binary,3827,,,,,,1017.0,26.57434021426705
+Full-model estimation sample,Suburb,Suburb,binary,3827,,,,,,1685.0,44.02926574340214
+Full-model estimation sample,Town,Town,binary,3827,,,,,,283.0,7.39482623464855
+Full-model estimation sample,Rural,Rural,binary,3827,,,,,,842.0,22.001567807682257
+CS-providing estimation sample,CS enrollment share (%),cs_enrollment_share,continuous,2900,8.6595006564096,8.927608491341694,6.009858197358195,2.935095125285687,10.927196652719656,,
+CS-providing estimation sample,CS classes per 100 students,cs_per_100_students,continuous,2900,3.935073331062755,17.40315071785977,1.4906855301655493,0.6268610397467022,3.260869565217391,,
+CS-providing estimation sample,School enrollment (students),log_enrollment,continuous,2900,504.3944827586207,469.6494970983951,349.9999999999999,170.00000000000006,704.25,,
+CS-providing estimation sample,Student–teacher ratio,st_ratio_use,continuous,2900,6.367234612908306,4.598998086815739,5.254222567361828,2.992171860739835,8.640307646356034,,
+CS-providing estimation sample,Certified advanced-STEM classes,log_certified_adv_stem_classes,continuous,2900,26.633793103448276,24.56449991722738,22.0,9.000000000000002,36.99999999999999,,
+CS-providing estimation sample,District CS-LOO (%),district_cs_loo,continuous,2900,41.54876406213389,38.4730201993515,42.85714285714285,0.0,79.41176470588235,,
+CS-providing estimation sample,District BA+ attainment (%),cd_ba_plus_share,continuous,2900,42.97067502005786,15.789310329615711,41.42213878572692,31.670673076923077,54.065103396232885,,
+CS-providing estimation sample,District household income (USD),cd_log_med_income,continuous,2900,100483.42413793104,34953.11081913263,95857.00000000015,75010.99999999997,119496.49999999988,,
+CS-providing estimation sample,CSRankings-linked university distance (km),csr_dist_km,continuous,2900,56.54609918733837,56.783169958022754,33.096032627154436,17.07694907128755,82.75238308572055,,
+CS-providing estimation sample,County technology employment LQ,qcew_selected_tech_lq,continuous,2900,1.06657712335482,1.1782999845769258,0.7321871831820487,0.3159084172337606,1.2167863272149853,,
+CS-providing estimation sample,County AI patent density (log scale),log_ai_patents_per_10k,continuous,2900,-1.1197562515616388,2.1732355226729436,-0.875573327499414,-2.49348363217703,0.4247374822515274,,
+CS-providing estimation sample,Fixed broadband availability (%),fixed_100_20_pct,continuous,2900,96.09448275862069,6.694468319395146,97.7,96.3,99.3,,
+CS-providing estimation sample,County GDP (log scale),log_gdp_total,continuous,2900,24.116146798780477,1.7416553232224028,24.303613920217146,22.953312494649857,25.34045620027571,,
+CS-providing estimation sample,Observed AI curriculum,AI_final,binary,2900,,,,,,235.0,8.103448275862068
+CS-providing estimation sample,Charter school,charter_use,binary,2900,,,,,,63.0,2.1724137931034484
+CS-providing estimation sample,NSLP participation indicator,title1_cep_flag,binary,2900,,,,,,2791.0,96.24137931034483
+CS-providing estimation sample,STEM name indicator,stem_name_flag,binary,2900,,,,,,68.0,2.344827586206897
+CS-providing estimation sample,Academy name indicator,academy_name_flag,binary,2900,,,,,,137.0,4.724137931034482
+CS-providing estimation sample,Data science enrollment indicator,crdc_ds_offered,binary,2900,,,,,,150.0,5.172413793103448
+CS-providing estimation sample,R1 university within 25 miles,r1_within_25mi,binary,2900,,,,,,1297.0,44.72413793103448
+CS-providing estimation sample,City,City,binary,2900,,,,,,742.0,25.586206896551722
+CS-providing estimation sample,Suburb,Suburb,binary,2900,,,,,,1361.0,46.93103448275862
+CS-providing estimation sample,Town,Town,binary,2900,,,,,,203.0,7.000000000000001
+CS-providing estimation sample,Rural,Rural,binary,2900,,,,,,594.0,20.482758620689655

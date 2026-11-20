@@ -1,0 +1,9 @@
+Model characteristic,Full model,Existing-CS model
+Schools,"3,827","2,900"
+AI-positive schools,258,235
+LEA clusters,"2,222","1,800"
+State-level jurisdictions,36,36
+Estimated parameters (including intercept),58,58
+Converged,Yes,Yes
+Log-likelihood,-864.58,-746.75
+AIC,1845.16,1609.50

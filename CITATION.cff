@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using these replication data and code."
+type: dataset
+title: "Replication data and code: The Institutional Foundations of AI Education"
+version: "0.1.0"
+repository-code: "https://github.com/iriskk99/ai-curriculum-institutional-foundations"
+authors:
+  - family-names: "Wang"
+    given-names: "Ke"
+  - family-names: "Wu"
+    given-names: "Ling"
+  - family-names: "Zou"
+    given-names: "Dan"
+  - family-names: "Wang"
+    given-names: "Jihan"
+  - family-names: "Ye"
+    given-names: "Xinyue"
+  - family-names: "Luo"
+    given-names: "Feiya"
+  - family-names: "Zhu"
+    given-names: "Qin"

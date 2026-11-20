@@ -1,0 +1,10 @@
+{
+  "n": 2900,
+  "AI": 235,
+  "clusters": 1800,
+  "states": 36,
+  "parameters": 58,
+  "log_likelihood": -746.7524275057292,
+  "aic": 1609.5048550114584,
+  "converged": true
+}
